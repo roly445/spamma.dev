@@ -1,0 +1,64 @@
+title = "Spamma"
+baseURL = "https://spamma.dev/"
+languageCode = "en-us"
+theme = "custom"
+
+[params]
+    description = "Self-hosted SMTP email capture with a Blazor WebAssembly UI, built for technical teams."
+    author = "Spamma Maintainers"
+    keywords = ["SMTP testing", "Mailtrap alternative", "self-hosted email capture", "Blazor WebAssembly", "event sourcing"]
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+
+[[menu.main]]
+    name = "How it works"
+    pageRef = "/pages/how-it-works"
+    weight = 20
+
+[[menu.main]]
+    name = "Quickstart"
+    pageRef = "/pages/quickstart"
+    weight = 30
+
+[[menu.main]]
+    name = "Setup wizard"
+    pageRef = "/pages/setup-wizard"
+    weight = 35
+
+[[menu.main]]
+    name = "Deployment"
+    pageRef = "/pages/deployment"
+    weight = 40
+
+[[menu.main]]
+    name = "Features"
+    pageRef = "/pages/features"
+    weight = 50
+
+[[menu.main]]
+    name = "Integrations"
+    pageRef = "/pages/integrations"
+    weight = 60
+
+[[menu.main]]
+    name = "Security"
+    pageRef = "/pages/security"
+    weight = 70
+
+[[menu.main]]
+    name = "Observability"
+    pageRef = "/pages/observability"
+    weight = 80
+
+[[menu.main]]
+    name = "FAQ"
+    pageRef = "/pages/faq"
+    weight = 90
+
+[[menu.main]]
+    name = "Roadmap"
+    pageRef = "/pages/roadmap"
+    weight = 100

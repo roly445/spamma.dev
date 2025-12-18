@@ -1,0 +1,13 @@
+<aside class="site-sidebar">
+    <nav class="site-nav">
+        <ul>
+            {{ range .Site.Menus.main }}
+            {{ $href := .URL }}
+            {{ if not $href }}
+                {{ with .Page }}{{ $href = .RelPermalink }}{{ end }}
+            {{ end }}
+            <li><a href="{{ $href }}">{{ .Name }}</a></li>
+            {{ end }}
+        </ul>
+    </nav>
+</aside>

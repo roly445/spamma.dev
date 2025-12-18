@@ -1,0 +1,21 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Hugo lock file
+.hugo_build.lock

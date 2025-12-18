@@ -1,0 +1,7 @@
+name = "Custom Theme"
+license = "MIT"
+author = "Your Name"
+description = "A custom theme for the microsite"
+homepage = "https://example.com"
+tags = ["hugo", "theme", "microsite"]
+min_version = "0.55.0"
